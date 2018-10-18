@@ -15,7 +15,7 @@
    $ pip3 install -r requirements.txt
    ```
 
-3. Set up RDS in my_django_proejct/settings.py
+3. Set up RDS in my_django_proejct/settings.py (using already existing RDS instance)
 
    > postgreSQL
 
