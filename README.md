@@ -1,13 +1,15 @@
 # Severless GraphQL API with Django and Graphene
 
-## Setup steps
+## Setup Guide
 
 1. Virtualenv with Python 3.6
 
    ```
-   $ python3.6 -m venv env_my-django-lambda
-   $ source env_my-django-lambda/bin/activate
+   $ python3.6 -m venv env_django-lambda
+   $ source env_django-lambda/bin/activate
    ```
+
+   > Zappa currently supports only Python 3.6
 
 2. Install requirements.txt
 
@@ -81,5 +83,5 @@
 7. Deployment
 
    ```
-   $zappa deploy dev
+   $ zappa deploy dev
    ```
